@@ -1,34 +1,68 @@
 # Dify×LumaAIで、ワークフロー上で動画生成してみた
 
 ## 記事メタデータ
-- **投稿日**: 2023年12月頃
+- **投稿日**: 2024年9月19日 18:48
 - **カテゴリ**: 開発・実験
-- **推定文字数**: 約3200文字
-- **記事タイプ**: ハンズオン・実験記事
-- **特徴**: AI動画生成技術の先進的活用
-- **note URL**: https://note.com/riku0423/
+- **価格**: ¥500（有料記事）
+- **文字数**: 1,433字
+- **画像数**: 11画像
+- **ファイル数**: 1ファイル
+- **特徴**: LumaAI APIとDifyワークフローの連携
+- **note URL**: https://note.com/riku0423/n/n7138341c8c69
+
+## はじめに
+
+こんにちは！理久です！  
+いつもXやnoteを見ていただきありがとうございます！
+
+今回は、LumaAIのAPIを使って、Difyのワークフローで動画生成を行う方法について解説します！
+
+> DifyからLumaDraemMachineで動画生成できるフロー作成しました！！#Dify #difylab #LumaDreamMachine pic.twitter.com/nN0rsS42VT
+> 
+> — 理久 (@rik423\_\_ai) September 17, 2024
+
+## 動画生成AIが熱い！
+
+最近、LumaAIだけでなく、RunwayからもAPIの登場が予告されましたね！！
+
+> 🚀 Introducing the Dream Machine API. Developers can now build and scale creative products with the world's most popular and intuitive video generation model without building complex tools in their apps. Start today <https://t.co/rtDKtZ5kTW> #LumaDreamMachine pic.twitter.com/olyBa1vxON
+> 
+> — Luma AI (@LumaLabsAI) September 16, 2024
+
+> Today we're announcing the Runway API, allowing developers to easily integrate Gen-3 Alpha Turbo into their apps and products.  
+>  
+> Already in use by trusted strategic partners like @Omnicom, you can now learn more and sign up for the waitlist: <https://t.co/hLgy7JuwGW>
+> 
+> — Runway (@runwayml) September 16, 2024
+
+動画生成をAPIでできるようになることで、Difyのワークフロー内で動画生成を行えるようになり、自動で様々な動画を生成できるようになります！！  
+記事に沿った動画を生成したり、様々なパターンの動画を生成できるようになったりと、活用の幅が広がりますね！！
+
+今回配布するフローを応用して様々なものを作ってみてください～！
+
+## ハッシュタグ
+#生成AI #動画生成AI #Dify #動画生成 #ノーコードツール #Runway #LumaDreamMachine
 
 ## 記事の特徴・スタイル分析
 
 ### 文体特徴
 - **口調**: 探求的・実験レポート調
-- **文章構成**: 発見→実装→驚き→共有の流れ
+- **文章構成**: 発見→背景→実装→共有の流れ
 - **技術詳細**: API連携の具体的な実装方法
-- **客観評価**: 成果と課題の両方を率直に記述
-
-### 記事構成パターン
-- **導入部**: LumaAIの特徴とDify連携の着想
-- **準備編**: 両サービスの設定と準備
-- **連携編**: ワークフロー構築の詳細過程
-- **生成編**: 実際の動画生成と結果検証
-- **まとめ**: 技術の可能性と今後の展望
+- **客観評価**: 新技術への期待と可能性を前向きに記述
 
 ### よく使用する表現
-- 「LumaAIが気になって試してみました」
-- 「実際に連携させてみた結果〜」
-- 「ここが一番苦労したポイント」
-- 「生成クオリティに驚きました」
-- 「まだまだ可能性がありそう」
+- 「動画生成AIが熱い！」
+- 「〜からもAPIの登場が予告されました」
+- 「動画生成をAPIでできるようになることで」
+- 「活用の幅が広がりますね！！」
+- 「今回配布するフローを応用して」
+
+### 記事の構成パターン
+- **導入部**: LumaAI APIとDify連携の紹介
+- **背景説明**: 動画生成AI市場の動向
+- **実装解説**: ワークフロー構築の詳細
+- **活用提案**: 応用可能性の提示
 
 ## 記事内容（推定）
 
